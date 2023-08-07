@@ -10,6 +10,8 @@ The steps I intend to take:
 4. Test Accuracy of model (Simple Lexicons get 40% and SOTA on HuggingFace gets 60-70%): In Progress 
 5. Summarize findings of likes and dislikes (maybe n-gram?) to recommend to team: NOT Started
 
-The project scope is simple but should showcase some unique text analysis thinking. The project will become even simpler if all 5-star and 1-star reviews only talk about the game and not the expereince of buying. Likely will not be creating a neural net as it may be overkill. Might come back over top to create one. But likely not.
+The project scope is simple but should showcase the effectiveness of simple models for sentiment. My thought is that the words used in 4&5 star reviews is significantly different than 1&2 stars.
 
 Currently, need to fix review data to be string format to run classifier. Also need to remove NaN from review data.
+
+I am thinking that a simple model can be as effective as SOTA from Huggingface.
